@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Application.Interfaces;
+using Application.Validation.FluentValidation;
+using Domain.Aspects.Autofac.Validation;
 using Domain.Entities;
 using Domain.Utilities.Results.Implementations;
 using Domain.Utilities.Results.Interfaces;
@@ -18,6 +20,8 @@ namespace Application.Services
         {
             _userRepository = userRepository;
         }
+
+        [ValidationAspect(typeof(UserValidator))]
         public async Task<IResult> AddUserAsync(User user)
         {
             var entity = _userRepository.AddAsync(user);
@@ -33,7 +37,7 @@ namespace Application.Services
             var entity = await _userRepository.GetAllAsync();
             if (entity == null)
             {
-                return new ErrorDataResult<IEnumerable<User>>(entity,"Error");
+                return new ErrorDataResult<IEnumerable<User>>("Error");
             }
             return new SuccessDataResult<IEnumerable<User>>(entity,"Success");
         }

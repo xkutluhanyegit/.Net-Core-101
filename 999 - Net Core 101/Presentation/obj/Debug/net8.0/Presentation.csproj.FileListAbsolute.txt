@@ -89,3 +89,4 @@ C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\bi
 C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\bin\Debug\net8.0\Application.pdb
 C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\bin\Debug\net8.0\FluentValidation.dll
