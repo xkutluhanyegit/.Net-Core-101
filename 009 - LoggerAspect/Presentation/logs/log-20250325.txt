@@ -1,0 +1,921 @@
+2025-03-25 10:35:44.909 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:35:44.999 +03:00 [DBG] Hosting starting
+2025-03-25 10:35:45.041 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:35:45.052 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:35:45.057 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:35:45.058 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:35:45.059 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:35:45.060 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:35:45.063 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:35:45.065 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:35:45.066 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:35:45.066 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:35:45.066 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:35:45.069 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:35:45.071 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:35:45.072 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:35:45.073 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:35:45.076 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:35:45.077 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:35:45.078 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:35:45.079 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:35:45.256 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:35:45.256 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:35:45.256 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:35:45.256 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:35:45.256 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:35:45.256 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:35:45.256 +03:00 [DBG] Hosting started
+2025-03-25 10:35:45.399 +03:00 [DBG] Connection id "0HNBBDUJPMK5T" accepted.
+2025-03-25 10:35:45.400 +03:00 [DBG] Connection id "0HNBBDUJPMK5T" started.
+2025-03-25 10:35:45.457 +03:00 [DBG] Connection 0HNBBDUJPMK5T established using the following protocol: "Tls12"
+2025-03-25 10:35:45.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:35:45.508 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:35:45.521 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:35:45.521 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:35:45.543 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:35:45.617 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:35:45.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 120.741ms
+2025-03-25 10:35:45.629 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:36:11.885 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:36:11.958 +03:00 [DBG] Hosting starting
+2025-03-25 10:36:11.994 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:36:12.005 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:36:12.009 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:36:12.010 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:36:12.011 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:36:12.011 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:36:12.014 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:36:12.017 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:36:12.017 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:36:12.017 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:36:12.017 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:36:12.021 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:36:12.024 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:36:12.026 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:36:12.027 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:36:12.030 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:36:12.031 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:36:12.031 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:36:12.032 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:36:12.174 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:36:12.180 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:36:12.180 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:36:12.180 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:36:12.180 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:36:12.180 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:36:12.181 +03:00 [DBG] Hosting started
+2025-03-25 10:36:12.288 +03:00 [DBG] Connection id "0HNBBDURQ46VL" accepted.
+2025-03-25 10:36:12.291 +03:00 [DBG] Connection id "0HNBBDURQ46VL" started.
+2025-03-25 10:36:12.344 +03:00 [DBG] Connection 0HNBBDURQ46VL established using the following protocol: "Tls12"
+2025-03-25 10:36:12.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:36:12.397 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:36:12.412 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:36:12.413 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:36:12.428 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:36:12.492 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:36:12.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 100.9044ms
+2025-03-25 10:36:12.498 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:36:19.133 +03:00 [DBG] Connection id "0HNBBDURQ46VM" received FIN.
+2025-03-25 10:36:19.135 +03:00 [DBG] Connection id "0HNBBDURQ46VM" accepted.
+2025-03-25 10:36:19.135 +03:00 [DBG] Connection id "0HNBBDURQ46VM" started.
+2025-03-25 10:36:19.135 +03:00 [DBG] Connection id "0HNBBDURQ46VN" accepted.
+2025-03-25 10:36:19.135 +03:00 [DBG] Connection id "0HNBBDURQ46VN" started.
+2025-03-25 10:36:19.148 +03:00 [DBG] Connection 0HNBBDURQ46VN established using the following protocol: "Tls12"
+2025-03-25 10:36:19.167 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:36:19.171 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:36:19.140 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:36:19.175 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:36:19.175 +03:00 [DBG] Connection id "0HNBBDURQ46VM" stopped.
+2025-03-25 10:36:19.175 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:19.176 +03:00 [DBG] Connection id "0HNBBDURQ46VM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:36:19.178 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:36:19.184 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:36:19.185 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:19.210 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:36:19.211 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:36:19.211 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:36:19.212 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:36:19.212 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:36:19.212 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:36:19.214 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:36:19.998 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:36:20.531 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 10:36:20.532 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 10:36:20.533 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 10:36:20.533 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 10:36:20.533 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 10:36:20.533 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 10:36:20.589 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 1373.8985ms
+2025-03-25 10:36:20.590 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:20.591 +03:00 [DBG] Connection id "0HNBBDURQ46VN" completed keep alive response.
+2025-03-25 10:36:20.591 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 1424.552ms
+2025-03-25 10:36:48.653 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:36:48.656 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:36:48.656 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:36:48.656 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:48.657 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:36:48.657 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:36:48.657 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:48.658 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:36:48.658 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:36:48.658 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:36:48.658 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:36:48.658 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:36:48.658 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:36:48.658 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:36:48.659 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:36:48.665 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 10:36:48.665 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 10:36:48.665 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 10:36:48.665 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 10:36:48.665 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 10:36:48.666 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 10:36:48.666 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 7.8528ms
+2025-03-25 10:36:48.666 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:48.667 +03:00 [DBG] Connection id "0HNBBDURQ46VN" completed keep alive response.
+2025-03-25 10:36:48.667 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 13.2988ms
+2025-03-25 10:36:50.844 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:36:50.844 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:36:50.844 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:36:50.844 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:50.844 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:36:50.845 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:36:50.845 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:50.845 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:36:50.846 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:36:50.846 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:36:50.846 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:36:50.846 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:36:50.846 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:36:50.846 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:36:50.846 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:36:50.849 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 10:36:50.849 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 10:36:50.849 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 10:36:50.849 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 10:36:50.849 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 10:36:50.849 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 10:36:50.850 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 3.7571ms
+2025-03-25 10:36:50.850 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:36:50.850 +03:00 [DBG] Connection id "0HNBBDURQ46VN" completed keep alive response.
+2025-03-25 10:36:50.850 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 6.222ms
+2025-03-25 10:37:16.130 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:37:16.193 +03:00 [DBG] Hosting starting
+2025-03-25 10:37:16.224 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:37:16.234 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:37:16.238 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:37:16.239 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:37:16.240 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:37:16.240 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:37:16.244 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:37:16.246 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:37:16.246 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:37:16.246 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:37:16.247 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:37:16.250 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:37:16.251 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:37:16.252 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:37:16.253 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:37:16.256 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:37:16.256 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:37:16.257 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:37:16.258 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:37:16.386 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:37:16.393 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:37:16.393 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:37:16.394 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:37:16.394 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:37:16.394 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:37:16.394 +03:00 [DBG] Hosting started
+2025-03-25 10:37:16.524 +03:00 [DBG] Connection id "0HNBBDVEUN6N5" accepted.
+2025-03-25 10:37:16.527 +03:00 [DBG] Connection id "0HNBBDVEUN6N5" started.
+2025-03-25 10:37:16.596 +03:00 [DBG] Connection 0HNBBDVEUN6N5 established using the following protocol: "Tls12"
+2025-03-25 10:37:16.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:37:16.648 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:37:16.660 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:37:16.661 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:37:16.676 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:37:16.747 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:37:16.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 104.5893ms
+2025-03-25 10:37:16.754 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:37:20.521 +03:00 [DBG] Connection id "0HNBBDVEUN6N6" received FIN.
+2025-03-25 10:37:20.522 +03:00 [DBG] Connection id "0HNBBDVEUN6N6" accepted.
+2025-03-25 10:37:20.523 +03:00 [DBG] Connection id "0HNBBDVEUN6N6" started.
+2025-03-25 10:37:20.523 +03:00 [DBG] Connection id "0HNBBDVEUN6N7" accepted.
+2025-03-25 10:37:20.523 +03:00 [DBG] Connection id "0HNBBDVEUN6N7" started.
+2025-03-25 10:37:20.534 +03:00 [DBG] Connection 0HNBBDVEUN6N7 established using the following protocol: "Tls12"
+2025-03-25 10:37:20.550 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:37:20.525 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:37:20.555 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:37:20.557 +03:00 [DBG] Connection id "0HNBBDVEUN6N6" stopped.
+2025-03-25 10:37:20.558 +03:00 [DBG] Connection id "0HNBBDVEUN6N6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:37:20.558 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:37:20.559 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:37:20.567 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:37:20.567 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:37:20.568 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:37:20.592 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:37:20.594 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:37:20.594 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:37:20.595 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:37:20.595 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:37:20.595 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:37:20.597 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:37:21.436 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:37:21.864 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 10:37:21.866 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 10:37:21.866 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 10:37:21.866 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 10:37:21.866 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 10:37:21.867 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 10:37:21.906 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 1308.575ms
+2025-03-25 10:37:21.906 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:37:21.908 +03:00 [DBG] Connection id "0HNBBDVEUN6N7" completed keep alive response.
+2025-03-25 10:37:21.908 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 1357.8185ms
+2025-03-25 10:38:47.588 +03:00 [DBG] Connection id "0HNBBDVEUN6N5" received FIN.
+2025-03-25 10:38:47.603 +03:00 [DBG] The connection queue processing loop for 0HNBBDVEUN6N5 completed.
+2025-03-25 10:38:47.603 +03:00 [DBG] Connection id "0HNBBDVEUN6N5" is closed. The last processed stream ID was 1.
+2025-03-25 10:38:47.604 +03:00 [DBG] Connection id "0HNBBDVEUN6N5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:38:47.605 +03:00 [DBG] Connection id "0HNBBDVEUN6N5" stopped.
+2025-03-25 10:39:53.106 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:39:53.165 +03:00 [DBG] Hosting starting
+2025-03-25 10:39:53.202 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:39:53.212 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:39:53.216 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:39:53.216 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:39:53.217 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:39:53.218 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:39:53.221 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:39:53.223 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:39:53.223 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:39:53.223 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:39:53.224 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:39:53.227 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:39:53.228 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:39:53.229 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:39:53.230 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:39:53.233 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:39:53.233 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:39:53.234 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:39:53.234 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:39:53.380 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:39:53.380 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:39:53.380 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:39:53.381 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:39:53.381 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:39:53.381 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:39:53.381 +03:00 [DBG] Hosting started
+2025-03-25 10:39:53.497 +03:00 [DBG] Connection id "0HNBBE0TNNSUP" accepted.
+2025-03-25 10:39:53.498 +03:00 [DBG] Connection id "0HNBBE0TNNSUP" started.
+2025-03-25 10:39:53.559 +03:00 [DBG] Connection 0HNBBE0TNNSUP established using the following protocol: "Tls12"
+2025-03-25 10:39:53.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:39:53.641 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:39:53.658 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:39:53.658 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:39:53.674 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:39:53.742 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:39:53.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 109.7889ms
+2025-03-25 10:39:53.750 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:39:56.766 +03:00 [DBG] Connection id "0HNBBE0TNNSUQ" received FIN.
+2025-03-25 10:39:56.767 +03:00 [DBG] Connection id "0HNBBE0TNNSUQ" accepted.
+2025-03-25 10:39:56.768 +03:00 [DBG] Connection id "0HNBBE0TNNSUQ" started.
+2025-03-25 10:39:56.768 +03:00 [DBG] Connection id "0HNBBE0TNNSUR" accepted.
+2025-03-25 10:39:56.768 +03:00 [DBG] Connection id "0HNBBE0TNNSUR" started.
+2025-03-25 10:39:56.779 +03:00 [DBG] Connection 0HNBBE0TNNSUR established using the following protocol: "Tls12"
+2025-03-25 10:39:56.801 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:39:56.806 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:39:56.771 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:39:56.809 +03:00 [DBG] Connection id "0HNBBE0TNNSUQ" stopped.
+2025-03-25 10:39:56.809 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:39:56.809 +03:00 [DBG] Connection id "0HNBBE0TNNSUQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:39:56.810 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:39:56.812 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:39:56.813 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:39:56.813 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:39:56.838 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:39:56.839 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:39:56.840 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:39:56.841 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:39:56.841 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:39:56.841 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:39:56.843 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:39:57.558 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:40:08.216 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 11372.6253ms
+2025-03-25 10:40:08.219 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:40:08.226 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Domain.Aspects.Autofac.Logging.LogAspect..ctor(Type loggerService, LogLevel logLevel) in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Domain\Aspects\Autofac\Logging\LogAspect.cs:line 23
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Domain.Utilities.Interceptors.AspectInterceptorSelector.SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors) in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Domain\Utilities\Interceptors\AspectInterceptorSelector.cs:line 16
+   at Castle.Proxies.IUserServiceProxy.GetAllUserAsync()
+   at Presentation.Controllers.userController.GetAllUserAsync() in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\Controllers\userController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-25 10:40:08.251 +03:00 [DBG] Connection id "0HNBBE0TNNSUR" completed keep alive response.
+2025-03-25 10:40:08.252 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 500 null text/plain; charset=utf-8 11451.5677ms
+2025-03-25 10:45:07.516 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:45:07.578 +03:00 [DBG] Hosting starting
+2025-03-25 10:45:07.617 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:45:07.627 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:45:07.632 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:45:07.633 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:45:07.634 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:45:07.634 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:45:07.637 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:45:07.639 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:45:07.639 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:45:07.639 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:45:07.639 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:45:07.642 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:45:07.644 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:45:07.646 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:45:07.647 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:45:07.650 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:45:07.650 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:45:07.651 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:45:07.652 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:45:07.804 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:45:07.804 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:45:07.804 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:45:07.804 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:45:07.804 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:45:07.804 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:45:07.805 +03:00 [DBG] Hosting started
+2025-03-25 10:45:07.947 +03:00 [DBG] Connection id "0HNBBE3REIGIK" accepted.
+2025-03-25 10:45:07.949 +03:00 [DBG] Connection id "0HNBBE3REIGIK" started.
+2025-03-25 10:45:08.025 +03:00 [DBG] Connection 0HNBBE3REIGIK established using the following protocol: "Tls12"
+2025-03-25 10:45:08.119 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:45:08.120 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:45:08.135 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:45:08.135 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:45:08.151 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:45:08.220 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:45:08.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 105.9176ms
+2025-03-25 10:45:08.226 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:45:15.727 +03:00 [DBG] Connection id "0HNBBE3REIGIL" accepted.
+2025-03-25 10:45:15.727 +03:00 [DBG] Connection id "0HNBBE3REIGIL" started.
+2025-03-25 10:45:15.728 +03:00 [DBG] Connection id "0HNBBE3REIGIM" accepted.
+2025-03-25 10:45:15.728 +03:00 [DBG] Connection id "0HNBBE3REIGIM" started.
+2025-03-25 10:45:15.729 +03:00 [DBG] Connection id "0HNBBE3REIGIL" received FIN.
+2025-03-25 10:45:15.740 +03:00 [DBG] Connection 0HNBBE3REIGIM established using the following protocol: "Tls12"
+2025-03-25 10:45:15.763 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:45:15.768 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:45:15.740 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:45:15.771 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:45:15.772 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:45:15.773 +03:00 [DBG] Connection id "0HNBBE3REIGIL" stopped.
+2025-03-25 10:45:15.773 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:45:15.774 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:45:15.774 +03:00 [DBG] Connection id "0HNBBE3REIGIL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:45:15.775 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:45:15.803 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:45:15.805 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:45:15.805 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:45:15.807 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:45:15.807 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:45:15.808 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:45:15.810 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:45:16.406 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:46:33.233 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 77423.2948ms
+2025-03-25 10:46:33.237 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:46:33.243 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Domain.Aspects.Autofac.Logging.LogAspect..ctor(Type loggerService, LogLevel logLevel) in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Domain\Aspects\Autofac\Logging\LogAspect.cs:line 23
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Domain.Utilities.Interceptors.AspectInterceptorSelector.SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors) in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Domain\Utilities\Interceptors\AspectInterceptorSelector.cs:line 16
+   at Castle.Proxies.IUserServiceProxy.GetAllUserAsync()
+   at Presentation.Controllers.userController.GetAllUserAsync() in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\Controllers\userController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-25 10:46:33.269 +03:00 [DBG] Connection id "0HNBBE3REIGIM" completed keep alive response.
+2025-03-25 10:46:33.270 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 500 null text/plain; charset=utf-8 77507.5805ms
+2025-03-25 10:47:33.204 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:47:33.264 +03:00 [DBG] Hosting starting
+2025-03-25 10:47:33.302 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:47:33.313 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:47:33.320 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:47:33.321 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:47:33.322 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:47:33.323 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:47:33.328 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:47:33.333 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:47:33.333 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:47:33.333 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:47:33.333 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:47:33.340 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:47:33.343 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:47:33.345 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:47:33.348 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:47:33.353 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:47:33.354 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:47:33.355 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:47:33.356 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:47:33.557 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:47:33.557 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:47:33.557 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:47:33.557 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:47:33.557 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:47:33.557 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:47:33.557 +03:00 [DBG] Hosting started
+2025-03-25 10:47:33.669 +03:00 [DBG] Connection id "0HNBBE56S9FJF" accepted.
+2025-03-25 10:47:33.671 +03:00 [DBG] Connection id "0HNBBE56S9FJF" started.
+2025-03-25 10:47:33.728 +03:00 [DBG] Connection 0HNBBE56S9FJF established using the following protocol: "Tls12"
+2025-03-25 10:47:33.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:47:33.778 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:47:33.789 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:47:33.789 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:47:33.804 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:47:33.871 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:47:33.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 98.2518ms
+2025-03-25 10:47:33.880 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:47:36.583 +03:00 [DBG] Connection id "0HNBBE56S9FJG" received FIN.
+2025-03-25 10:47:36.584 +03:00 [DBG] Connection id "0HNBBE56S9FJG" accepted.
+2025-03-25 10:47:36.584 +03:00 [DBG] Connection id "0HNBBE56S9FJG" started.
+2025-03-25 10:47:36.585 +03:00 [DBG] Connection id "0HNBBE56S9FJH" accepted.
+2025-03-25 10:47:36.585 +03:00 [DBG] Connection id "0HNBBE56S9FJH" started.
+2025-03-25 10:47:36.596 +03:00 [DBG] Connection 0HNBBE56S9FJH established using the following protocol: "Tls12"
+2025-03-25 10:47:36.613 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:47:36.617 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:47:36.588 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:47:36.620 +03:00 [DBG] Connection id "0HNBBE56S9FJG" stopped.
+2025-03-25 10:47:36.620 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:47:36.620 +03:00 [DBG] Connection id "0HNBBE56S9FJG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:47:36.620 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:47:36.623 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:47:36.623 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:47:36.624 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:47:36.648 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:47:36.649 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:47:36.649 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:47:36.650 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:47:36.650 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:47:36.651 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:47:36.652 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:47:37.310 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:47:42.953 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 6300.9373ms
+2025-03-25 10:47:42.957 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:47:42.963 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Domain.Aspects.Autofac.Logging.LogAspect..ctor(Type loggerService, LogLevel logLevel) in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Domain\Aspects\Autofac\Logging\LogAspect.cs:line 23
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Domain.Utilities.Interceptors.AspectInterceptorSelector.SelectInterceptors(Type type, MethodInfo method, IInterceptor[] interceptors) in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Domain\Utilities\Interceptors\AspectInterceptorSelector.cs:line 16
+   at Castle.Proxies.IUserServiceProxy.GetAllUserAsync()
+   at Presentation.Controllers.userController.GetAllUserAsync() in C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation\Controllers\userController.cs:line 24
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-25 10:47:42.986 +03:00 [DBG] Connection id "0HNBBE56S9FJH" completed keep alive response.
+2025-03-25 10:47:42.987 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 500 null text/plain; charset=utf-8 6374.1403ms
+2025-03-25 10:49:50.846 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:49:50.909 +03:00 [DBG] Hosting starting
+2025-03-25 10:49:50.943 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:49:50.954 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:49:50.958 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:49:50.959 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:49:50.960 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:49:50.961 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:49:50.963 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:49:50.965 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:49:50.965 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:49:50.966 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:49:50.966 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:49:50.969 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:49:50.970 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:49:50.972 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:49:50.973 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:49:50.975 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:49:50.976 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:49:50.976 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:49:50.977 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:49:51.140 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:49:51.140 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:49:51.141 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:49:51.141 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:49:51.141 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:49:51.141 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:49:51.141 +03:00 [DBG] Hosting started
+2025-03-25 10:49:51.271 +03:00 [DBG] Connection id "0HNBBE6FSI58R" accepted.
+2025-03-25 10:49:51.272 +03:00 [DBG] Connection id "0HNBBE6FSI58R" started.
+2025-03-25 10:49:51.329 +03:00 [DBG] Connection 0HNBBE6FSI58R established using the following protocol: "Tls12"
+2025-03-25 10:49:51.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:49:51.386 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:49:51.401 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:49:51.401 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:49:51.420 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:49:51.498 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:49:51.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 121.5268ms
+2025-03-25 10:49:51.511 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:49:54.575 +03:00 [DBG] Connection id "0HNBBE6FSI58S" received FIN.
+2025-03-25 10:49:54.576 +03:00 [DBG] Connection id "0HNBBE6FSI58S" accepted.
+2025-03-25 10:49:54.576 +03:00 [DBG] Connection id "0HNBBE6FSI58S" started.
+2025-03-25 10:49:54.577 +03:00 [DBG] Connection id "0HNBBE6FSI58T" accepted.
+2025-03-25 10:49:54.577 +03:00 [DBG] Connection id "0HNBBE6FSI58T" started.
+2025-03-25 10:49:54.586 +03:00 [DBG] Connection 0HNBBE6FSI58T established using the following protocol: "Tls12"
+2025-03-25 10:49:54.609 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:49:54.614 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:49:54.616 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:49:54.617 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:49:54.580 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:49:54.618 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:49:54.618 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:49:54.619 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:49:54.620 +03:00 [DBG] Connection id "0HNBBE6FSI58S" stopped.
+2025-03-25 10:49:54.620 +03:00 [DBG] Connection id "0HNBBE6FSI58S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:49:54.638 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:49:54.639 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:49:54.639 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:49:54.640 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:49:54.640 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:49:54.641 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:49:54.642 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:49:55.237 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:50:17.798 +03:00 [FTL] {"MethodName":"GetAllUserAsync","ClassName":"IUserService","Parameters":[],"LogDate":"2025-03-25T07:50:14.5172984Z","User":"System","$type":"LogDetail"}
+2025-03-25 10:50:29.839 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 10:50:29.841 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 10:50:29.841 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 10:50:29.841 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 10:50:29.843 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 10:50:29.844 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 10:50:29.890 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 35247.2684ms
+2025-03-25 10:50:29.890 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:50:29.891 +03:00 [DBG] Connection id "0HNBBE6FSI58T" completed keep alive response.
+2025-03-25 10:50:29.892 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 35282.4368ms
+2025-03-25 10:56:58.531 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 10:56:58.591 +03:00 [DBG] Hosting starting
+2025-03-25 10:56:58.624 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 10:56:58.635 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 10:56:58.639 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 10:56:58.640 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 10:56:58.641 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 10:56:58.641 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 10:56:58.645 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 10:56:58.648 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 10:56:58.648 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 10:56:58.648 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 10:56:58.648 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 10:56:58.652 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 10:56:58.654 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:56:58.655 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 10:56:58.656 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 10:56:58.659 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 10:56:58.660 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 10:56:58.661 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 10:56:58.662 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 10:56:58.821 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 10:56:58.821 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 10:56:58.821 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 10:56:58.822 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 10:56:58.822 +03:00 [INF] Hosting environment: Development
+2025-03-25 10:56:58.822 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 10:56:58.822 +03:00 [DBG] Hosting started
+2025-03-25 10:56:58.957 +03:00 [DBG] Connection id "0HNBBEAFB9HHC" accepted.
+2025-03-25 10:56:58.959 +03:00 [DBG] Connection id "0HNBBEAFB9HHC" started.
+2025-03-25 10:56:59.014 +03:00 [DBG] Connection 0HNBBEAFB9HHC established using the following protocol: "Tls12"
+2025-03-25 10:56:59.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 10:56:59.066 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 10:56:59.078 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 10:56:59.078 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 10:56:59.097 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 10:56:59.169 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:56:59.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 109.1762ms
+2025-03-25 10:56:59.175 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 10:57:08.437 +03:00 [DBG] Connection id "0HNBBEAFB9HHD" received FIN.
+2025-03-25 10:57:08.438 +03:00 [DBG] Connection id "0HNBBEAFB9HHD" accepted.
+2025-03-25 10:57:08.439 +03:00 [DBG] Connection id "0HNBBEAFB9HHD" started.
+2025-03-25 10:57:08.440 +03:00 [DBG] Connection id "0HNBBEAFB9HHE" accepted.
+2025-03-25 10:57:08.440 +03:00 [DBG] Connection id "0HNBBEAFB9HHE" started.
+2025-03-25 10:57:08.489 +03:00 [DBG] Connection 0HNBBEAFB9HHE established using the following protocol: "Tls12"
+2025-03-25 10:57:08.500 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 10:57:08.442 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 10:57:08.506 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 10:57:08.508 +03:00 [DBG] Connection id "0HNBBEAFB9HHD" stopped.
+2025-03-25 10:57:08.508 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 10:57:08.508 +03:00 [DBG] Connection id "0HNBBEAFB9HHD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 10:57:08.509 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:57:08.512 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 10:57:08.513 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 10:57:08.514 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 10:57:08.537 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 10:57:08.538 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 10:57:08.538 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 10:57:08.539 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 10:57:08.539 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 10:57:08.540 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 10:57:08.541 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 10:57:09.233 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 11:00:00.062 +03:00 [FTL] {"MethodName":"GetAllUserAsync","ClassName":"IUserService","Parameters":[],"LogDate":"2025-03-25T07:59:22.1162828Z","User":"System","$type":"LogDetail"}
+2025-03-25 11:00:49.712 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 11:00:49.716 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 11:00:49.716 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 11:00:49.717 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 11:00:49.718 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 11:00:49.719 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 11:00:49.801 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 221254.3738ms
+2025-03-25 11:00:49.802 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:00:49.803 +03:00 [DBG] Connection id "0HNBBEAFB9HHE" completed keep alive response.
+2025-03-25 11:00:49.804 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 221298.5933ms
+2025-03-25 11:06:14.094 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 11:06:14.153 +03:00 [DBG] Hosting starting
+2025-03-25 11:06:14.194 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 11:06:14.206 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 11:06:14.211 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 11:06:14.212 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 11:06:14.212 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 11:06:14.213 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 11:06:14.216 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 11:06:14.220 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 11:06:14.220 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 11:06:14.220 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 11:06:14.220 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 11:06:14.224 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 11:06:14.225 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 11:06:14.226 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 11:06:14.227 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 11:06:14.230 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 11:06:14.230 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 11:06:14.231 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 11:06:14.231 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 11:06:14.366 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 11:06:14.366 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 11:06:14.366 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 11:06:14.366 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 11:06:14.366 +03:00 [INF] Hosting environment: Development
+2025-03-25 11:06:14.366 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 11:06:14.367 +03:00 [DBG] Hosting started
+2025-03-25 11:06:14.516 +03:00 [DBG] Connection id "0HNBBEFKTGJL1" accepted.
+2025-03-25 11:06:14.517 +03:00 [DBG] Connection id "0HNBBEFKTGJL1" started.
+2025-03-25 11:06:14.583 +03:00 [DBG] Connection 0HNBBEFKTGJL1 established using the following protocol: "Tls12"
+2025-03-25 11:06:14.646 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 11:06:14.648 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 11:06:14.675 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 11:06:14.676 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 11:06:14.699 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 11:06:14.770 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 11:06:14.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 129.293ms
+2025-03-25 11:06:14.777 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 11:06:20.074 +03:00 [DBG] Connection id "0HNBBEFKTGJL2" accepted.
+2025-03-25 11:06:20.074 +03:00 [DBG] Connection id "0HNBBEFKTGJL3" received FIN.
+2025-03-25 11:06:20.074 +03:00 [DBG] Connection id "0HNBBEFKTGJL3" started.
+2025-03-25 11:06:20.075 +03:00 [DBG] Connection id "0HNBBEFKTGJL4" accepted.
+2025-03-25 11:06:20.075 +03:00 [DBG] Connection id "0HNBBEFKTGJL4" started.
+2025-03-25 11:06:20.091 +03:00 [DBG] Connection 0HNBBEFKTGJL4 established using the following protocol: "Tls12"
+2025-03-25 11:06:20.109 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-userss - null null
+2025-03-25 11:06:20.111 +03:00 [DBG] No candidates found for the request path '/api/user/getall-userss'
+2025-03-25 11:06:20.112 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 11:06:20.113 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 11:06:20.113 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 11:06:20.083 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 11:06:20.123 +03:00 [DBG] Connection id "0HNBBEFKTGJL4" completed keep alive response.
+2025-03-25 11:06:20.123 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-userss - 404 0 null 13.9196ms
+2025-03-25 11:06:20.124 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/api/user/getall-userss, Response status code: 404
+2025-03-25 11:06:20.125 +03:00 [DBG] Connection id "0HNBBEFKTGJL3" stopped.
+2025-03-25 11:06:20.126 +03:00 [DBG] Connection id "0HNBBEFKTGJL3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 11:08:47.752 +03:00 [DBG] Connection id "0HNBBEFKTGJL1" received FIN.
+2025-03-25 11:08:47.766 +03:00 [DBG] The connection queue processing loop for 0HNBBEFKTGJL1 completed.
+2025-03-25 11:08:47.768 +03:00 [DBG] Connection id "0HNBBEFKTGJL1" is closed. The last processed stream ID was 1.
+2025-03-25 11:08:47.768 +03:00 [DBG] Connection id "0HNBBEFKTGJL1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 11:08:47.777 +03:00 [DBG] Connection id "0HNBBEFKTGJL1" stopped.
+2025-03-25 11:10:21.387 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 11:10:21.445 +03:00 [DBG] Hosting starting
+2025-03-25 11:10:21.476 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 11:10:21.486 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 11:10:21.490 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 11:10:21.491 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 11:10:21.491 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 11:10:21.492 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 11:10:21.495 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 11:10:21.497 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 11:10:21.497 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 11:10:21.497 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 11:10:21.497 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 11:10:21.501 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 11:10:21.502 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 11:10:21.503 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 11:10:21.504 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 11:10:21.507 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 11:10:21.507 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 11:10:21.508 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 11:10:21.509 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 11:10:21.641 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 11:10:21.641 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 11:10:21.641 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 11:10:21.642 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 11:10:21.642 +03:00 [INF] Hosting environment: Development
+2025-03-25 11:10:21.642 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 11:10:21.643 +03:00 [DBG] Hosting started
+2025-03-25 11:10:21.793 +03:00 [DBG] Connection id "0HNBBEHUJNL4N" accepted.
+2025-03-25 11:10:21.794 +03:00 [DBG] Connection id "0HNBBEHUJNL4N" started.
+2025-03-25 11:10:21.849 +03:00 [DBG] Connection 0HNBBEHUJNL4N established using the following protocol: "Tls12"
+2025-03-25 11:10:21.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 11:10:21.906 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 11:10:21.917 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 11:10:21.917 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 11:10:21.941 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 11:10:22.007 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 11:10:22.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 107.4981ms
+2025-03-25 11:10:22.013 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 11:10:28.025 +03:00 [DBG] Connection id "0HNBBEHUJNL4O" accepted.
+2025-03-25 11:10:28.025 +03:00 [DBG] Connection id "0HNBBEHUJNL4O" received FIN.
+2025-03-25 11:10:28.025 +03:00 [DBG] Connection id "0HNBBEHUJNL4O" started.
+2025-03-25 11:10:28.026 +03:00 [DBG] Connection id "0HNBBEHUJNL4Q" accepted.
+2025-03-25 11:10:28.026 +03:00 [DBG] Connection id "0HNBBEHUJNL4Q" started.
+2025-03-25 11:10:28.038 +03:00 [DBG] Connection 0HNBBEHUJNL4Q established using the following protocol: "Tls12"
+2025-03-25 11:10:28.059 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 11:10:28.028 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 11:10:28.064 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 11:10:28.066 +03:00 [DBG] Connection id "0HNBBEHUJNL4O" stopped.
+2025-03-25 11:10:28.067 +03:00 [DBG] Connection id "0HNBBEHUJNL4O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 11:10:28.067 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 11:10:28.068 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:10:28.071 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 11:10:28.071 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 11:10:28.072 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:10:28.095 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 11:10:28.096 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 11:10:28.096 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 11:10:28.097 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 11:10:28.097 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 11:10:28.097 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 11:10:28.099 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 11:10:28.797 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 11:10:39.690 +03:00 [FTL] {"MethodName":"GetAllUserAsync","ClassName":"IUserService","Parameters":[],"LogDate":"2025-03-25T08:10:39.6886855Z","User":"System","$type":"LogDetail"}
+2025-03-25 11:10:44.845 +03:00 [FTL] {"MethodName":"GetAllUserAsync","ClassName":"IUserService","Parameters":[],"LogDate":"2025-03-25T08:10:44.8452250Z","User":"System","$type":"LogDetail"}
+2025-03-25 11:10:45.886 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 11:10:45.888 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 11:10:45.889 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 11:10:45.889 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 11:10:45.889 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 11:10:45.890 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 11:10:45.933 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 17833.5895ms
+2025-03-25 11:10:45.933 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:10:45.935 +03:00 [DBG] Connection id "0HNBBEHUJNL4Q" completed keep alive response.
+2025-03-25 11:10:45.935 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 17876.1888ms
+2025-03-25 11:26:42.587 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-25 11:26:42.655 +03:00 [DBG] Hosting starting
+2025-03-25 11:26:42.678 +03:00 [INF] User profile is available. Using 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 11:26:42.689 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-10fef145-764b-461f-841f-a35f58c9d2f8.xml'.
+2025-03-25 11:26:42.692 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-21cbc359-400f-4fe6-9557-edcfeb022300.xml'.
+2025-03-25 11:26:42.693 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-5f1374f2-15ab-4f80-8233-4d03e8abd227.xml'.
+2025-03-25 11:26:42.694 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-78de1e9c-3e7b-401d-a608-eacd3c04a451.xml'.
+2025-03-25 11:26:42.694 +03:00 [DBG] Reading data from file 'C:\Users\kutluhan.yegit\AppData\Local\ASP.NET\DataProtection-Keys\key-b2159913-db6e-4f70-8ed6-30ca5f041e7a.xml'.
+2025-03-25 11:26:42.698 +03:00 [DBG] Found key {10fef145-764b-461f-841f-a35f58c9d2f8}.
+2025-03-25 11:26:42.700 +03:00 [DBG] Found key {21cbc359-400f-4fe6-9557-edcfeb022300}.
+2025-03-25 11:26:42.700 +03:00 [DBG] Found key {5f1374f2-15ab-4f80-8233-4d03e8abd227}.
+2025-03-25 11:26:42.700 +03:00 [DBG] Found key {78de1e9c-3e7b-401d-a608-eacd3c04a451}.
+2025-03-25 11:26:42.700 +03:00 [DBG] Found key {b2159913-db6e-4f70-8ed6-30ca5f041e7a}.
+2025-03-25 11:26:42.704 +03:00 [DBG] Considering key {78de1e9c-3e7b-401d-a608-eacd3c04a451} with expiration date 2025-05-12 07:24:16Z as default key.
+2025-03-25 11:26:42.706 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 11:26:42.708 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-25 11:26:42.709 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-25 11:26:42.712 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-25 11:26:42.712 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-25 11:26:42.713 +03:00 [DBG] Using key {78de1e9c-3e7b-401d-a608-eacd3c04a451} as the default key.
+2025-03-25 11:26:42.714 +03:00 [DBG] Key ring with default key {78de1e9c-3e7b-401d-a608-eacd3c04a451} was loaded during application startup.
+2025-03-25 11:26:42.860 +03:00 [INF] Now listening on: https://localhost:7096
+2025-03-25 11:26:42.860 +03:00 [INF] Now listening on: http://localhost:5158
+2025-03-25 11:26:42.860 +03:00 [DBG] Loaded hosting startup assembly Presentation
+2025-03-25 11:26:42.860 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 11:26:42.860 +03:00 [INF] Hosting environment: Development
+2025-03-25 11:26:42.860 +03:00 [INF] Content root path: C:\Users\kutluhan.yegit\Desktop\.Net Core 101\999 - Net Core 101\Presentation
+2025-03-25 11:26:42.865 +03:00 [DBG] Hosting started
+2025-03-25 11:26:42.977 +03:00 [DBG] Connection id "0HNBBER311A4R" accepted.
+2025-03-25 11:26:42.979 +03:00 [DBG] Connection id "0HNBBER311A4R" started.
+2025-03-25 11:26:43.062 +03:00 [DBG] Connection 0HNBBER311A4R established using the following protocol: "Tls12"
+2025-03-25 11:26:43.114 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7096/ - null null
+2025-03-25 11:26:43.115 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-25 11:26:43.128 +03:00 [DBG] No candidates found for the request path '/'
+2025-03-25 11:26:43.128 +03:00 [DBG] Request did not match any endpoints
+2025-03-25 11:26:43.145 +03:00 [DBG] The request path  does not match the path filter
+2025-03-25 11:26:43.207 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 11:26:43.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7096/ - 404 0 null 97.5095ms
+2025-03-25 11:26:43.214 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7096/, Response status code: 404
+2025-03-25 11:26:46.518 +03:00 [DBG] Connection id "0HNBBER311A4S" received FIN.
+2025-03-25 11:26:46.519 +03:00 [DBG] Connection id "0HNBBER311A4S" accepted.
+2025-03-25 11:26:46.519 +03:00 [DBG] Connection id "0HNBBER311A4S" started.
+2025-03-25 11:26:46.520 +03:00 [DBG] Connection id "0HNBBER311A4T" accepted.
+2025-03-25 11:26:46.520 +03:00 [DBG] Connection id "0HNBBER311A4T" started.
+2025-03-25 11:26:46.531 +03:00 [DBG] Connection 0HNBBER311A4T established using the following protocol: "Tls12"
+2025-03-25 11:26:46.542 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7096/api/user/getall-users - null null
+2025-03-25 11:26:46.524 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-25 11:26:46.547 +03:00 [DBG] 1 candidate(s) found for the request path '/api/user/getall-users'
+2025-03-25 11:26:46.549 +03:00 [DBG] Connection id "0HNBBER311A4S" stopped.
+2025-03-25 11:26:46.550 +03:00 [DBG] Connection id "0HNBBER311A4S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-25 11:26:46.550 +03:00 [DBG] Endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)' with route pattern 'api/user/getall-users' is valid for the request path '/api/user/getall-users'
+2025-03-25 11:26:46.551 +03:00 [DBG] Request matched endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:26:46.554 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-25 11:26:46.555 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-25 11:26:46.556 +03:00 [INF] Executing endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:26:46.580 +03:00 [INF] Route matched with {action = "GetAllUser", controller = "user"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync() on controller Presentation.Controllers.userController (Presentation).
+2025-03-25 11:26:46.582 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-25 11:26:46.582 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-25 11:26:46.583 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-25 11:26:46.583 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-25 11:26:46.584 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-25 11:26:46.586 +03:00 [DBG] Executing controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 11:26:47.497 +03:00 [DBG] Executed controller factory for controller Presentation.Controllers.userController (Presentation)
+2025-03-25 11:26:52.007 +03:00 [FTL] {"MethodName":"GetAllUserAsync","Message":null,"ClassName":"IUserService","Parameters":[],"LogDate":"2025-03-25T08:26:52.0062310Z","User":"System","$type":"LogDetail"}
+2025-03-25 11:26:53.634 +03:00 [FTL] {"MethodName":"GetAllUserAsync","Message":null,"ClassName":"IUserService","Parameters":[],"LogDate":"2025-03-25T08:26:53.6349780Z","User":"System","$type":"LogDetail"}
+2025-03-25 11:26:54.834 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-25 11:26:54.838 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-25 11:26:54.838 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-25 11:26:54.838 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-25 11:26:54.840 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-25 11:26:54.841 +03:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Utilities.Results.Implementations.SuccessDataResult`1[[System.Collections.Generic.IEnumerable`1[[Domain.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-25 11:26:54.884 +03:00 [INF] Executed action Presentation.Controllers.userController.GetAllUserAsync (Presentation) in 8298.0214ms
+2025-03-25 11:26:54.886 +03:00 [INF] Executed endpoint 'Presentation.Controllers.userController.GetAllUserAsync (Presentation)'
+2025-03-25 11:26:54.888 +03:00 [DBG] Connection id "0HNBBER311A4T" completed keep alive response.
+2025-03-25 11:26:54.889 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7096/api/user/getall-users - 200 null application/json; charset=utf-8 8346.5947ms
